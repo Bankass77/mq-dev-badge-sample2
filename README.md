@@ -1,0 +1,1 @@
+# mq-dev-badge-sample2
