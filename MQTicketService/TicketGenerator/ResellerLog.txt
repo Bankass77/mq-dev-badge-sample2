@@ -1,0 +1,43 @@
+[2024-10-24 12:01:28]-[Main   ]-[LE PLUS PRÉCIS]-[Manager       ]-[initialiseLogging  ]: Logger initialised 
+[2024-10-24 12:01:28]-[Main   ]-[PRÉCIS ]-[Manager       ]-[main               ]: ----- 
+[2024-10-24 12:01:28]-[Main   ]-[INFOS  ]-[Manager       ]-[main               ]: Creating Events 
+[2024-10-24 12:01:29]-[Main   ]-[LE PLUS PRÉCIS]-[EventManager  ]-[createVenue        ]: Venue created at location 'Royal Albert Hall' at time '19:30' at date '2019-03-12' 
+[2024-10-24 12:01:29]-[Main   ]-[LE PLUS PRÉCIS]-[EventManager  ]-[createBookableEvent]: Bookable event created with eventID '0' with name of 'European Summit' 
+[2024-10-24 12:01:29]-[Main   ]-[PRÉCIS ]-[EventManager  ]-[createEventFromJson]: Event Created: European Summit ID=0 
+[2024-10-24 12:01:29]-[Main   ]-[LE PLUS PRÉCIS]-[EventManager  ]-[createVenue        ]: Venue created at location '99 Columbia road' at time '21:30' at date '2020-09-19' 
+[2024-10-24 12:01:29]-[Main   ]-[LE PLUS PRÉCIS]-[EventManager  ]-[createBookableEvent]: Bookable event created with eventID '1' with name of 'Glasto' 
+[2024-10-24 12:01:29]-[Main   ]-[PRÉCIS ]-[EventManager  ]-[createEventFromJson]: Event Created: Glasto ID=1 
+[2024-10-24 12:01:29]-[Main   ]-[LE PLUS PRÉCIS]-[EventManager  ]-[createVenue        ]: Venue created at location 'Hursley' at time '08:00' at date '2020-09-11' 
+[2024-10-24 12:01:29]-[Main   ]-[LE PLUS PRÉCIS]-[EventManager  ]-[createBookableEvent]: Bookable event created with eventID '2' with name of 'IBM Think' 
+[2024-10-24 12:01:29]-[Main   ]-[PRÉCIS ]-[EventManager  ]-[createEventFromJson]: Event Created: IBM Think ID=2 
+[2024-10-24 12:01:29]-[Main   ]-[LE PLUS PRÉCIS]-[EventManager  ]-[createVenue        ]: Venue created at location 'KOKO' at time '14:30' at date '2020-07-01' 
+[2024-10-24 12:01:29]-[Main   ]-[LE PLUS PRÉCIS]-[EventManager  ]-[createBookableEvent]: Bookable event created with eventID '3' with name of 'Beta Workshop' 
+[2024-10-24 12:01:29]-[Main   ]-[PRÉCIS ]-[EventManager  ]-[createEventFromJson]: Event Created: Beta Workshop ID=3 
+[2024-10-24 12:01:29]-[Main   ]-[LE PLUS PRÉCIS]-[EventManager  ]-[createVenue        ]: Venue created at location 'Trent Country Park' at time '10:00' at date '2020-07-27' 
+[2024-10-24 12:01:29]-[Main   ]-[LE PLUS PRÉCIS]-[EventManager  ]-[createBookableEvent]: Bookable event created with eventID '4' with name of 'Share' 
+[2024-10-24 12:01:29]-[Main   ]-[PRÉCIS ]-[EventManager  ]-[createEventFromJson]: Event Created: Share ID=4 
+[2024-10-24 12:01:29]-[Main   ]-[LE PLUS PRÉCIS]-[EventManager  ]-[createVenue        ]: Venue created at location 'The O2' at time '09:00' at date '2020-02-07' 
+[2024-10-24 12:01:29]-[Main   ]-[LE PLUS PRÉCIS]-[EventManager  ]-[createBookableEvent]: Bookable event created with eventID '5' with name of 'MQTC' 
+[2024-10-24 12:01:29]-[Main   ]-[PRÉCIS ]-[EventManager  ]-[createEventFromJson]: Event Created: MQTC ID=5 
+[2024-10-24 12:01:29]-[Main   ]-[INFOS  ]-[Manager       ]-[main               ]: New total of 6 events 
+[2024-10-24 12:01:29]-[Main   ]-[PRÉCIS ]-[Manager       ]-[main               ]: ----- 
+[2024-10-24 12:01:29]-[Main   ]-[PRÉCIS ]-[EnvSetter     ]-[createFactory      ]: Creating connection factory 
+[2024-10-24 12:01:29]-[Main   ]-[GRAVE  ]-[EnvSetter     ]-[createFactory      ]: An error occurred when trying to create connection factory
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+com.ibm.msg.client.commonservices.j2se.NLSServices.createException(NLSServices.java:334)
+com.ibm.msg.client.commonservices.nls.NLSServices.createException(NLSServices.java:226)
+com.ibm.msg.client.jakarta.jms.internal.JmsErrorUtils.createException(JmsErrorUtils.java:126)
+com.ibm.msg.client.jakarta.jms.internal.JmsFactoryFactoryImpl.getInstance(JmsFactoryFactoryImpl.java:168)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:569)
+com.ibm.msg.client.jakarta.jms.JmsFactoryFactory.getInstance(JmsFactoryFactory.java:173)
+com.ibm.mq.badge.EnvSetter.createFactory(EnvSetter.java:166)
+com.ibm.mq.badge.EnvSetter.connect(EnvSetter.java:118)
+com.ibm.mq.badge.AdvertManager.connect(AdvertManager.java:83)
+com.ibm.mq.badge.Manager.main(Manager.java:63) 

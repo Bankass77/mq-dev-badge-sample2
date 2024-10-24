@@ -1,0 +1,8 @@
+com/ibm/mq/demo/TicketRequester.class
+com/ibm/mq/demo/EventFactory.class
+com/ibm/mq/demo/Reseller.class
+com/ibm/mq/demo/SessionBuilder.class
+com/ibm/mq/demo/PublishWaitException.class
+com/ibm/mq/demo/RequestTickets.class
+com/ibm/mq/demo/Event.class
+com/ibm/mq/demo/TicketSubscriber.class
